@@ -1,0 +1,45 @@
+/*
+ h2 Selecciona a todos los h2 de la página
+*/
+
+h2{ 
+    color: crimson;
+}
+/* p, h1 => todos los parrafos y la etiqueta */
+p, h1 {
+    color: #555;
+}
+/* .sombra => todo elemento que tenga la clase sombra tendra un sombra */
+.sombra{
+    box-shadow: 0px 2px 8px #888;
+}
+.text-danger{
+    color: crimson;
+}
+.text-success{
+    color: green;
+}
+/* section p=>  todos los parrafos que sean descendientes de un section 
+pueden ser hijos, nietos, etc etc */
+
+section p {
+    font-size:14px;
+}
+/*  */
+p .babge-black{
+    background-color: #222;
+    color: #eee;
+}
+/* Todos los li que sean hijos en primer nivel de un  "ul" */
+ul > li{
+    font-style: italic;
+}
+ol>li {
+    font-style: normal;
+}
+/* pseudo-clases */
+/* elemento: hover => estilos que se aplicaran en un elemento cuando el mouse
+este encima del msmo */
+ul>li:hover {
+    background-color: #eee;
+}
