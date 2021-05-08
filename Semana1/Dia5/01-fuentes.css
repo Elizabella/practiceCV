@@ -4,7 +4,7 @@
 
 @font-face {
     font-family: 'miPrimeraFuenta';
-    src: url('../fuentesGlobales/Montserrat-Regular.ttf');
+    src: url('../fuentesGlobales/Montserrat-Regular.ttf')
 }
 
 @font-face {
@@ -15,6 +15,20 @@
 @font-face {
     font-family: 'miFuenteBold';
     src: url('../fuentesGlobales/Montserrat-Bold.ttf')
+}
+@font-face {
+    font-family: 'Teko-Light';
+    src: url('../fuentesGlobales/Teko/Teko-Light.ttf')
+}
+
+@font-face {
+    font-family: 'Teko-Medium';
+    src: url('../fuentesGlobales/Teko/Teko-Medium.ttf')
+}
+
+@font-face {
+    font-family: 'Teko-SemiBold';
+    src: url('../fuentesGlobales/Teko/Teko-SemiBold.ttf')
 }
 
 h1, h2 {
@@ -51,4 +65,27 @@ a:hover {
     background-color: #fff;
     color: #000;
     border: 1px solid #c00;
+}
+.portada__codigo{
+    background-image: url('../imagenesGlobal/codigo.jpeg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 500px;
+}
+.alto__total{
+    height: 100vh;
+}
+.tercer__titulo{
+    font: 42px "Teko-Medium";
+}
+.tercer__parrafo{
+    font:16px "Teko-Medium";
+    border:1px solid #c00;
+    background: linear-gradient(0deg, #1A98EF, #EF1AED, #FFFD2B 30% );
+}
+.btn_iniciar_sesion{
+    margin-top: 30px;
+    font-family: "Teko-Medium";
+    Background: linear-gradient(90deg, #1A98)
 }
