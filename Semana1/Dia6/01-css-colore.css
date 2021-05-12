@@ -18,20 +18,25 @@ h1 {
 }
 
 .form-control {
+  margin-bottom: 5px;
+  margin-left: 10px;
   border: none;
   outline: none;
   padding: 8px 8px 8px 30px;
-  /* border: 1px solid #f17469; */
   border: 1px dashed #f17469;
-  border-bottom: 1px solid var(--color-primario);
+  border-bottom: 3px solid var(--color-primario);
   background-image: url("./../imagenesGlobal/iconoid.png");
   background-repeat: no-repeat;
   background-position: 5px center;
   background-size: 24px 24px;
   border-radius: 5px;
 }
-.form-control:focus{
-    background-image: url("./../imagenesGlobal/iconoidhover.png");
+
+/*cuando el input tiene el cursor dentro de sí*/
+
+.form-control:focus {
+  background-image: url("./../imagenesGlobal/iconoidhover.png");
+  border: 1px solid #f17469;
 }
 
 .cuadrado {
@@ -62,40 +67,42 @@ h1 {
   height: 100px;
   background-color: #ddd;
   /*overflow sirve para controlar el desbordamiento
-    del contenido de un elemento*/
+  del contenido de un elemento*/
   overflow: auto;
 }
 
 /*
-  Personalizando el SCROLLBAR
-  */
+Personalizando el SCROLLBAR
+*/
 
 .parrafo1::-webkit-scrollbar {
-  width: 10px;
+  width: 5px;
   /*ancho del scroll vertical*/
 }
 
 .parrafo1::-webkit-scrollbar-thumb {
   /*la barrita de desplazamiento*/
   border-radius: 5px;
-  background-color: yellow;
+  background-color: #777;
+  box-shadow: 0px 0px 5px #444;
 }
 
 .parrafo1::-webkit-scrollbar-track {
   /*La pista por donde se desplaza la barrita*/
-  background-color: #aa4433;
+  background-color: #ddd;
 }
 
 /*OJO: Los elementos INLINE no pueden tener 
-  ancho ni alto definido*/
+ancho ni alto definido*/
 
 .badge-rojo {
   width: 100px;
   height: 100px;
   background-color: #991123;
 }
-.imagen{
-    width: 150px;
-    border-radius: 10px;
-    overflow: hidden;
+
+.imagen {
+  width: 150px;
+  border-radius: 10px;
+  overflow: hidden;
 }

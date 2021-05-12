@@ -50,7 +50,7 @@ h1, h2 {
 .descripcion {
     font-family: "miFuenteMedium";
     font-size: 12px;
-    width: 200px;   
+    width: 200px;
     height: 80px;
     overflow: scroll;
 }
@@ -64,7 +64,7 @@ h1, h2 {
 }
 
 .fuente__link {
-   font-family: 'Courgette', cursive;
+    font-family: 'Courgette', cursive;
 }
 
 a {
@@ -101,16 +101,13 @@ a:hover {
 .tercer__parrafo {
     font: 16px "Teko-Medium";
     border: 1px solid #c00;
-    background: 
-    -webkit-linear-gradient(right,
-        #1A98EF 70%, #FFFD2B 30%);
+    background: -webkit-linear-gradient(right, #1A98EF 70%, #FFFD2B 30%);
 }
 
 .btn_iniciar_session {
     margin-top: 30px;
     font-family: "Teko-Medium";
-    background: linear-gradient(90deg, 
-        #1A98EF, #EF1AED, #FFFD2B);
+    background: linear-gradient(90deg, #1A98EF, #EF1AED, #FFFD2B);
     border: none;
     color: #fff;
 }
@@ -136,9 +133,8 @@ a:hover {
     hue-rotate
  */
 
-
 .primera_imagen {
-     filter: brightness(5)
+    filter: brightness(5)
 }
 
 .segunda_imagen {
