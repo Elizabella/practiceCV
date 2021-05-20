@@ -1,0 +1,97 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600&family=Poppins:wght@200;300;400;500&display=swap');
+@import url('./card1.css');
+* {
+  margin: 0;
+  box-sizing: border-box;
+  padding: 0;
+}
+
+body {
+  font-family: "Poppins", sans-serif;
+}
+
+.header {
+  height: 60px;
+  box-shadow: 0px 0px 8px #bbb;
+}
+
+.main {
+  display: flex;
+  min-height: calc(100vh - 60px);
+}
+
+.menu {
+  width: 240px;
+  background-color: #D30314;
+}
+
+.container {
+  padding: 2rem;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 2rem;
+  justify-content: center;
+  flex: 1;
+  align-items: flex-start;
+}
+/*   
+Colocarlas siguientes propiedades para simular la apariencia de 
+PINTEREST*/
+  /* flex-direction: column;
+  align-items:flex-start;
+  max-height:900px; 
+*/
+	/* margin: 0px; */
+/* .card{
+  width: 30%;
+
+  position: relative;
+	border-radius: 1px;
+	overflow: hidden;
+	background:#fff;
+	box-shadow: 0px 1px 10px rgba(0,0,0,0.2);
+	transition: all 400ms ease-out;
+ 
+}
+
+.card__figure {
+  height: 260px;
+  background-color: rgba(5, 3, 4, 0.856);
+  overflow: hidden;
+  position: relative;
+  transition: all 0.3s ease;
+ 
+}
+.card__figure img {
+  max-width: 120%;
+  height:260px; 
+  position: relative;
+
+ 
+  
+  transition: all 0.3s ease;  
+} */
+/* top:0px; */
+   /* left: -100px; */
+
+/* card__figure" */
+
+ /* .card {
+  width: 300px;
+  box-shadow: 0px 0px 15px #bbb;
+  border-radius: 5px;
+  border: 1px solid #ddd;
+}  */
+
+/*FIGURE*/
+
+/* .card__figure {
+  overflow: hidden;
+  height: 250px;
+} */
+ /* .card__figure img {
+  position: relative;
+  left: -20px;
+  max-width: 120%;
+  height:260px;
+}  */
