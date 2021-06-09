@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<link
+			href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css"
+			rel="stylesheet"
+			integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x"
+			crossorigin="anonymous"
+		/>
+		<style>
+            .card{
+                cursor: pointer;
+                transition: box-shadow 0.2s ease;
+            }
+        </style>
+
+        <title>Document</title>
+
+	</head>
+	<body>
+		<h1 class="display-1">Cards en Bootstrap</h1>
+        <main >
+            <div>
+                <div>
+                    <div>
+
+                    </div>
+                </div>
+            </div>
+        </main>
+
+		<script
+			src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js"
+			integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4"
+			crossorigin="anonymous"
+		></script>
+
+        <script>
+            //atrapamos a todos los elementos de la clase "card"
+            const cards= document.querySelectorAll('.card');
+            //recorremos a todos los cards para añadirle dos eventos a cada uno 
+            cards.forEach((card)=>{
+                card.onmouseover=()=>{
+                    card.classlist.remove('shadow');
+                    card.classlist.add('shadow-sm');
+                };
+                card.onmouseout=()=>{
+                    card.classlist.remove('shadow-sm');
+                    card.classlist.add('shadow');     
+                    
+                };
+            });
+        </script>
+	</body>
+</html>
